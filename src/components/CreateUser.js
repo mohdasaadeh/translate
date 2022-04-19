@@ -6,7 +6,7 @@ import Button from "./Button";
 class CreateUser extends React.Component {
   render() {
     return (
-      <div>
+      <div className="ui form">
         <Field />
         <Button />
       </div>

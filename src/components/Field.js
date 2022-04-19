@@ -10,9 +10,9 @@ class Field extends React.Component {
   render() {
     return (
       <LanguageContext.Consumer>
-        {(language) => {
+        {({ language }) => {
           return (
-            <div className="ui content">
+            <div className="ui field">
               <div>{this.renderField(language)}</div>
               <input />
             </div>
