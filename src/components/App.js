@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 import LanguageSelector from "./LanguageSelector";
 import CreateUser from "./CreateUser";
-import LanguageContext, { LanguageStore } from "../contexts/LanguageContext";
+import { LanguageStore } from "../contexts/LanguageContext";
 
 const App = () => {
-  const [state, setState] = useState({ language: "english" });
-
   return (
     <div className="ui container">
       <LanguageStore>
